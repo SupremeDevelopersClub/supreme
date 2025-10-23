@@ -1,27 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supreme — Innovation. Power. Design.</title>
+
+  <!-- Favicon and Icons -->
+  <link rel="icon" href="Icons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="Icons/Supreme.jpg" />
+  <link rel="image_src" href="Icons/Supreme.webp" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Supreme Development">
-  <meta property="og:description" content="Modern and powerful software built by Supreme.">
-  <meta property="og:image" content="https://supreme.dev.tc/icons/preview.png">
-  <meta property="og:url" content="https://supreme.dev.tc">
-  <meta property="og:type" content="website">
+  <meta property="og:title" content="Supreme Development" />
+  <meta property="og:description" content="Building the future of technology — secure, modern, and limitless." />
+  <meta property="og:image" content="Icons/Supreme.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://supreme.dev.tc" />
 
-  <title>Supreme — Official Website</title>
-  <link rel="icon" href="/icons/favicon.png">
-  <link rel="stylesheet" href="css/theme.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/index.css" />
 </head>
 <body>
-  <div class="container">
-    <div class="logo">Supreme<span>.</span></div>
-    <h1>Welcome to the <span>Future</span></h1>
-    <p>Innovative • Secure • Limitless</p>
-    <a href="#explore" class="btn">Explore Now</a>
-  </div>
-  <div class="bg"></div>
+  <header class="hero">
+    <div class="bg-animated"></div>
+    <div class="container center">
+      <img src="Icons/Supreme.webp" alt="Supreme Logo" class="hero-logo" />
+      <h1 class="hero-title">Supreme Development</h1>
+      <p class="hero-subtitle">Crafting innovation through modern software and design excellence.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-shine">Explore Projects</a>
+        <a href="#about" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="h2 text-center">About Supreme</h2>
+        <p class="lead text-center">
+          Supreme is a modern software organization focused on creating robust, scalable and aesthetically crafted applications. 
+          Our mission is to deliver technology that feels human — simple, powerful, and ahead of its time.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="h2 text-center">Featured Projects</h2>
+        <div class="grid grid-3 mt-4">
+          <div class="card gradient center">
+            <img src="Icons/Supreme.jpg" alt="Project Icon" class="rounded-lg" style="width:80px;height:80px;margin-bottom:12px;">
+            <h3>Supreme Framework</h3>
+            <p class="text-muted">A modular framework engineered for performance, security, and extensibility.</p>
+          </div>
+          <div class="card gradient center">
+            <img src="Icons/Supreme.webp" alt="Project Icon" class="rounded-lg" style="width:80px;height:80px;margin-bottom:12px;">
+            <h3>Supreme Cloud</h3>
+            <p class="text-muted">A seamless and secure environment for scalable web applications.</p>
+          </div>
+          <div class="card gradient center">
+            <img src="Icons/Supreme.jpg" alt="Project Icon" class="rounded-lg" style="width:80px;height:80px;margin-bottom:12px;">
+            <h3>Supreme UI</h3>
+            <p class="text-muted">A beautiful and lightweight UI system designed for modern interfaces.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container text-center">
+        <div class="callout">
+          <h2>Join the Revolution.</h2>
+          <p class="text-muted mt-2">Supreme is redefining digital innovation with simplicity, elegance, and raw power.</p>
+          <a href="#contact" class="btn mt-4">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center">
+    <div class="container">
+      <img src="Icons/favicon.ico" alt="Supreme Icon" width="28" style="vertical-align:middle;margin-right:6px;">
+      <span>© 2025 Supreme Development. All Rights Reserved.</span>
+    </div>
+  </footer>
 </body>
 </html>
